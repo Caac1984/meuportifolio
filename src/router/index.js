@@ -11,7 +11,7 @@ const routes = [
     component: Home,
   },
   {
-    path: '/HabilidadesView',
+    path: '/HabilidadesView.vue',
     name: 'Habilidades',
     component: HabilidadesView,
   },
