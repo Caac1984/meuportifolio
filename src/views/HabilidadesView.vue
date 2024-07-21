@@ -1,16 +1,28 @@
 <template>
-    <div class="OIIII">
-      <H1>OIIII</H1>
-    </div>
-  </template>
+  <barra-navegacao></barra-navegacao>
+  
+      
+          <h1>Usuários:</h1>
+          
+
+          <!-- Tabela de usuários -->
+         
+            
+   
+    
+  
+</template>
 
 <script>
+import BarraNavegacao from "@/components/BarraNavegacao.vue";
 export default {
-    name: 'HabilidadesView',
-    props: {
-      msg: String
-    }
+  name: 'HabilidadesView',
+  components: {
+    BarraNavegacao
   }
-  
-  
-  </script>
+}
+</script>
+
+<style scoped>
+/* Estilos CSS para este componente */
+</style>
