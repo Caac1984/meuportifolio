@@ -1,16 +1,12 @@
 <template>
   <barra-navegacao></barra-navegacao>
-  
-      
-          <h1>Usuários:</h1>
-          
-
-          <!-- Tabela de usuários -->
-         
-            
-   
-    
-  
+  <div class="row g-0 justify-content-center">
+    <div class="col-lg-9 col-md-6 col-sm-6">
+      <div class="card">
+        <p class="fs-2">Habilidades</p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>

@@ -1,35 +1,29 @@
+<!-- HomeView.vue -->
 <template>
   <barra-navegacao></barra-navegacao>
   <div class="row g-0 justify-content-center">
-            <div class="col-lg-9 col-md-6 col-sm-6">
-                <div class="card" >
-                
-                   
-                        <p class="fs-2">Seja bem vindo!</p>
-                    
-                
-              </div>
-        </div>
+    <div class="col-lg-9 col-md-6 col-sm-6">
+      <div class="card">
+        <p class="fs-2">Seja bem vindo!</p>
+      </div>
     </div>
+    <footer-barra></footer-barra>
+  </div>
 </template>
 
 <script>
-
 import BarraNavegacao from "@/components/BarraNavegacao.vue";
+import FooterBarra from "@/components/FooterBarra.vue"; // Atualize a importação aqui
 
 export default {
-
   name: 'HomeView',
   components: {
-    BarraNavegacao
+    'barra-navegacao': BarraNavegacao,
+    'footer-barra': FooterBarra,
   }
-
 }
-
-
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
   margin: 40px 0 0;
@@ -48,9 +42,4 @@ li {
 a {
   color: #42b983;
 }
-
-.card {
-  
-}
-
 </style>
