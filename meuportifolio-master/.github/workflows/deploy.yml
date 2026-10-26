@@ -1,10 +1,9 @@
-
 name: Publicar portfólio Vue
 
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 permissions:
@@ -30,7 +29,7 @@ jobs:
           cache: npm
 
       - name: Instalar dependências
-        run: npm ci
+        run: npm install
 
       - name: Compilar portfólio
         run: npm run build
