@@ -22,7 +22,7 @@
         <h1>Carlos Alexandre</h1>
         <h2>Desenvolvedor Front-end / Back-end Júnior | Analista de Sistemas Júnior</h2>
         <p>
-          Bacharel em Sistemas de Informação (UniSales). Experiência em aplicações web full-stack, 
+          Formado em Bacharel em Sistemas de Informação (UniSales). Aplicações web full-stack, 
           APIs RESTful, arquitetura serverless, engenharia de dados e soluções de visão computacional.
         </p>
         <div class="hero-buttons">
