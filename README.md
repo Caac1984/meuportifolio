@@ -2,6 +2,7 @@ Olá, eu sou o Carlos Alexandre!
 Bacharel em Sistemas de Informação (UniSales) | Desenvolvedor Júnior / Analista de Sistemas
 
 📍 Vila Velha – ES | ✉️ christoag@gmail.com | 💼 (https://www.linkedin.com/in/carlos-alexandre-8025661ba/)
+
 Meu Portifólio: https://caac1984.github.io/meuportifolio/
 
 Sobre Mim
